@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norway Page Dizayn</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="text-center mt-4">MEMBERSHİP FORM</h3>
+      <form class="mt-3">
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="İsim">Name Surname</label>
+              <input
+                type="text "
+                class="form-control form-control-sm"
+                id="isimInput"
+                aria-describedby="isimHelp"
+              />
+              <small id="isimHelp" class="form-text text-muted"
+                >this field is required</small
+              >
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="sifre">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="sifre"
+                aria-describedby="sifreHelp"
+              />
+              <small id="sifreHelp" class="form-text text-muted"
+                >this field is required</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="email">Email adres</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="sehir">Choose Your City</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Oslo</option>
+                <option>Bergen</option>
+                <option>Trondheim</option>
+                <option>Stavanger</option>
+                <option>Drammen</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Choose Your Picture :</label>
+              <input type="file" class="form-control-file" id="file" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <h5>Cinsiyet</h5>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios1">
+                  Man
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios2"
+                  value="option2"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios2">
+                  Woman
+                </label>
+              </div>
+
+              <br />
+            </div>
+            <div class="col">
+              <h5>Hobiess</h5>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Check1"
+                />
+                <label class="form-check-label" for="Check1">
+                  Nature Tour
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Check2"
+                />
+                <label class="form-check-label" for="Check2">
+                  Fjord and Rafting Tour
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Check3"
+                />
+                <label class="form-check-label" for="Check3">
+                  Viking Museum and Historical Places
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <div class="row">
+          <button type="submit" class="btn btn-success btn-block">Save</button>
+          <button type="reset" class="btn btn-secondary btn-block">
+            Clear
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
